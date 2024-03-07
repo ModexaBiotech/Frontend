@@ -4,7 +4,7 @@ import playstore from "../assets//playstore.svg"
 import appstore from "../assets/6467932_apple_appstore_icon.svg"
 
 
-
+// This is the hero section on the main page
 
 
 const Hero1 = () => {
@@ -16,23 +16,23 @@ const Hero1 = () => {
           <h3 className=" text-[18px]">Install the app</h3>
 
           <div className="flex gap-10">
-    <div className="flex gap-5 justify-center rounded-md items-center bg-black-main w-[220px] h-[70px]">
-            <Image alt="appstore" width={40} height={40} src={playstore} />
-            <div className="flex flex-col">
-              <p className="text-white font-light text-[14px]">GET IT ON</p>
-              <p className="text-white font-bold text-[18px]">Google Play</p>
+            <div className="flex gap-5 justify-center rounded-md items-center bg-black-main w-[220px] h-[70px]">
+              <Image alt="appstore" width={40} height={40} src={playstore} />
+              <div className="flex flex-col">
+                <p className="text-white font-light text-[14px]">GET IT ON</p>
+                <p className="text-white font-bold text-[18px]">Google Play</p>
+              </div>
             </div>
-          </div>
-          <div className="flex gap-5 justify-center rounded-md items-center bg-black-main w-[220px] h-[70px]">
-            <Image alt="appstore" width={40} height={40} src={appstore} />
-            <div className="flex flex-col">
-              <p className="text-white font-light text-[14px]">Download on </p>
-              <p className="text-white font-bold text-[18px]">App Store</p>
+            <div className="flex gap-5 justify-center rounded-md items-center bg-black-main w-[220px] h-[70px]">
+              <Image alt="appstore" width={40} height={40} src={appstore} />
+              <div className="flex flex-col">
+                <p className="text-white font-light text-[14px]">Download on </p>
+                <p className="text-white font-bold text-[18px]">App Store</p>
+              </div>
             </div>
+
           </div>
-          
-          </div>
-          
+
         </div>
       </div>
       <div className="second-section lg:mt-[-50px]">
